@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us page</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="merged_color">
+    <nav>
+        <div class="brand-wrapper">
+            <div class="logo">E Market Sphere </div>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Category.html">Category</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <div class="contact-box">
+        <h2>CONTACT US</h2>
+        <form action="#">
+            <div class="input-with-icon">
+                <input type="text" class="input-field" placeholder="Your name">
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <!-- Input field for email with Gmail icon -->
+            <div class="input-with-icon">
+                <input type="email" class="input-field" placeholder="Your email">
+                <i class='bx bxl-gmail'></i>
+            </div>
+
+            <div class="input-with-icon">
+                <input type="text" class="input-field" placeholder="Subject">
+                <i class='bx bx-book-open'></i>
+            </div>
+            <textarea type="text" class="input-field textarea-field" placeholder="Your message"></textarea>
+            <button type="button" class="btn"> Send message</button>
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="footernav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Category.html">Category</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <span class="close-popup" id="close-popup">&times;</span>
+            <h3>Thank you!</h3>
+            <p>We have received your message.</p>
+        </div>
+    </div>
+    <script src="contactus.js"></script>
+</body>
+
+</html>

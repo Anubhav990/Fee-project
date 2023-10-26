@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #efefef;
+  font-family: sans-serif;
+  background-image: url(./peaceful2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 120vh;
+  ;
+
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+}
+
+.contact-box {
+  width: 500px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 15px 0 #000;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  border-radius: 10px;
+  padding: 20px 40px;
+}
+
+.contact-box h2 {
+  text-align: center;
+  color: #fff;
+  /*transform: translateY(50%);*/
+  margin-top: 10px;
+}
+
+form {
+  margin: 35px;
+  margin-top: 20px;
+
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style for the input field wrapper with the Gmail icon */
+.input-with-icon {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style for the Gmail icon inside the input field */
+.input-with-icon i.bx.bxl-gmail {
+  position: absolute;
+  top: 63%;
+  right: 10px;
+  /* Adjust the positioning of the icon as needed */
+  transform: translateY(-50%);
+  color: none;
+  /* Adjust the color of the icon as needed */
+}
+
+.input-with-icon i.bx.bxs-user {
+  position: absolute;
+  top: 63%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.input-with-icon i.bx {
+  position: absolute;
+  top: 63%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+/*header css*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  height: 100px;
+  background: rgb(19, 16, 16);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+  position: relative;
+}
+
+nav .logo {
+  font-size: 29px;
+  color: wheat;
+  font-weight: 1000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin: 0px 10px;
+}
+
+nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+nav ul li a:hover,
+nav ul li a.Active {
+  background-color: rgb(64, 218, 159);
+  color: azure;
+}
+
+/*footer css*/
+
+footer {
+  background-color: rgb(43, 38, 38);
+  padding: 10px;
+  margin-top: 800px;
+  width: 100%;
+  opacity: 0.9;
+
+
+}
+
+.footernav {
+  display: flex;
+  background-color: rgb(43, 38, 38);
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.footernav ul li {
+  display: inline-block;
+  list-style: none;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.footernav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Pop-up styles */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Additional styles as needed */
